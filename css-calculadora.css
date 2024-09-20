@@ -4,5 +4,41 @@
     border-radius: 8px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 300px;
+    width: 500px;
+    align-items: center;
+    height: 500px;
+}
+
+
+.body{
+    font-family: monospace;
+    background-color: darkorchid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    
+}
+
+.titulo{ 
+    font-size: 45px;
+}
+
+.inserir-numero{
+    font-size: 22px;
+}
+
+.select{
+
+}
+
+.botao{
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}   
+
+.input{
+
 }
