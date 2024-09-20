@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css-calculadora.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão de Bases</title>
+</head>
+<body>
+
+    <div>
+    <h1>Conversão de Bases</h1>
+    <div><p>Insira aqui um número em decimal:</p></div>
+    <p><input type="text"id=numero_decimal placeholder="Ex: 100"></p>
+    
+
+    <div><select id="bases" class="estilo-select">
+    <p><option value="binario">Binário</option></p>
+    <p><option value="octal">Octal</option></p>
+    <p><option value="hexa">Hexadecimal</option></p>
+    </select>
+    </div>
+
+    <div><p><button onclick="converterDecimal()">Converter</button></p></div>
+
+</div>
+
+    <p><div id="resultadoconversao"></div></p>
+
+</body>
+</html>
+<script src="script-calculadora.js"></script>
