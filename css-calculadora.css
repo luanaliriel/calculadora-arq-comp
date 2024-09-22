@@ -1,10 +1,7 @@
 body {
     font-family: monospace;
     background-color: rgb(29, 29, 29);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
     height: 100vh;
     margin: 0;
 }
@@ -82,3 +79,73 @@ footer {
     color: white;
     text-align: center;
 }
+
+.header{
+  background-color: #c9c9c9;
+  box-shadow: 0 0 1rem black; 
+}
+
+ul{
+    display: flex;
+    margin: 5px;
+    font-weight: bold;
+    font-size: large;
+}
+
+li{
+    color: #7c25cd;
+    list-style: none;
+    cursor: pointer;
+    padding-left: 2rem;
+}
+
+.nav-bar{
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #8A2BE2;
+    font-weight: 400;
+}
+
+.conteudo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 65px;
+}
+
+.nav-item{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #8A2BE2;
+    font-weight: 400;
+}
+
+
+
+
