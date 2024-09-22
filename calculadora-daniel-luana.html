@@ -15,7 +15,7 @@
     <header class="header">
         <nav class="nav-bar">
             <div class="home">
-                <h1> HOME </h1>
+                <h1>HOME</h1>
             </div>
 
             <div class="nav-list">
@@ -30,40 +30,37 @@
     </header>
     <div class="conteudo">
 
-    <div class="container">
-        <h1 class="titulo">Conversão de <span class="subtitulo">Bases</span></h1>
-        <div class="inserir-numero">
-            <p>Digite abaixo um número em <i>decimal</i> e selecione para qual base deseja converter:</p>
-        </div>
-        <p class="input"><input type="text" id=numero_decimal placeholder="Ex: 100"></p>
+        <div class="container">
+            <h1 class="titulo">Conversão de Bases</h1>
+            <div class="inserir-numero">
+                <p>Digite abaixo um número em <i>decimal</i> e selecione para qual base deseja converter:</p>
+            </div>
+            <p class="input"><input type="text" id=numero_decimal placeholder="Ex: 100"></p>
 
 
 
-        <div class="select"><select id="bases" class="estilo-select">
-                <p>
+            <div class="select"><select id="bases" class="estilo-select">
+
                     <option value="binario">Binário</option>
-                </p>
-                <p>
                     <option value="octal">Octal</option>
-                </p>
-                <p>
                     <option value="hexa">Hexadecimal</option>
-                </p>
-            </select>
+
+                </select>
+            </div>
+
+            <div class="botao">
+                <p><button onclick="converterDecimal()">Converter</button></p>
+            </div>
+
+            <p>
+            <div id="resultadoconversao"></div>
+            <div id="caixaTexto" class="caixa-texto"></div>
+            </p>
+
         </div>
 
-        <div class="botao">
-            <p><button onclick="converterDecimal()">Converter</button></p>
-        </div>
-
-        <p>
-        <div id="resultadoconversao"></div>
-        </p>
 
     </div>
-
-
-</div>
 </body>
 
 </html>
