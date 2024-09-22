@@ -1,44 +1,84 @@
-.container {
-    text-align: center;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 500px;
-    align-items: center;
-    height: 500px;
-}
-
-
-.body{
+body {
     font-family: monospace;
-    background-color: darkorchid;
+    background-color: rgb(29, 29, 29);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
-    
+    height: 100vh;
+    margin: 0;
 }
 
-.titulo{ 
-    font-size: 45px;
+.container {
+    text-align: center;
+    background-color: #c9c9c9;
+    border-radius: 50px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
 }
 
-.inserir-numero{
-    font-size: 22px;
+.titulo {
+    font-size: 43px;
+    color: #7c25cd;
+}
+.subtitulo {
+    font-size:40px;
+    color: #c08000;
 }
 
-.select{
-
+.inserir-numero {
+    font-size: 19px;
+    font-weight: bold;
+    color: #454545;
 }
 
-.botao{
-    animation-name: anima;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-}   
+.input input {
+    border-radius: 80px;
+    border: 0;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+}
 
-.input{
+.input input::placeholder {
+    color: #888; 
+}
 
+.select {
+    margin: 20px 0;
+}
+.estilo-select{
+    color: #c08000;
+    border-radius: 50px;
+}
+
+.botao {
+    margin: 40px 0;
+}
+
+.botao button {
+    background-color: #8A2BE2; /* Roxo */
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    animation: anima 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes anima {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+footer {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
 }
